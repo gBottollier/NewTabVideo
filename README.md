@@ -20,10 +20,14 @@ Follow this guide or the [Google guide](https://developer.chrome.com/docs/extens
 
 ## Customizing Wallpaper Folder
 
-You can personalize AnimatedNewTab by adding your own video wallpapers.
-Simply place your video files in the `videos` folder within the extension directory.
-You can modify the extension and/or add videos even if you already added the extension to chrome.
-For high-quality video wallpapers, visit [MoeWalls](https://moewalls.com/resolution/3840x2160/) to download 4k videos wallpaper.
+Enhance your AnimatedNewTab experience by personalizing it with your own video wallpapers.
+
+- Adding Videos: Simply place your desired video files into the videos folder located within the extension's directory.
+- High-Quality Wallpapers: For access to a variety of 4K video wallpapers, check out MoeWalls.
+- Single Video Option: If you prefer to have only one video play, ensure that the videos folder contains just that single file.
+- Default Wallpaper Gallery: [moewalls.com](https://moewalls.com/resolution/3840x2160/).
+
+Note: Modifications to the extension, including adding or changing videos, can be made even after you have added the extension to Chrome. These changes will be reflected in real time.
 
 ## Additional Features
 

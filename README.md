@@ -6,7 +6,7 @@ AnimatedNewTab is a Chrome extension that enhances your browsing experience by p
 
 To see AnimatedNewTab in action, check out this [video preview](https://youtu.be/jPYcoJ4VupE).
 
-![AnimatedNewTab_converted](https://github.com/gBottollier/AnimatedNewTab/assets/89708938/1fab6ce0-5b38-4ee0-8b5d-a95558308cf0)
+https://github.com/gBottollier/AnimatedNewTab/assets/89708938/d5d71e77-8eca-4ba6-9ab5-d0cb4e81a1bd
 
 ## Installation Instructions
 

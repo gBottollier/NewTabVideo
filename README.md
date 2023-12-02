@@ -10,6 +10,8 @@ To see AnimatedNewTab in action, check out this [video preview](https://youtu.be
 
 ### How to Install an Unpacked Extension in Chrome
 
+Follow this guide or the [Google guide](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
+
 1. Download or clone the AnimatedNewTab extension repository from GitHub.
 2. Open Google Chrome and navigate to `chrome://extensions/`.
 3. Enable `Developer mode` by toggling the switch in the top right corner.

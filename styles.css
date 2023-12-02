@@ -1,0 +1,53 @@
+/* styles.css */
+/* Remove margins, padding, and scrolling from the body */
+body 
+{
+	
+  margin: 0;
+  padding: 0;
+  background:black;
+  overflow: hidden;
+}
+
+/* Make the video take the full size of the screen */
+video#randomVideo 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video covers the entire screen */
+}
+
+/* Position the info div at the bottom right corner */
+.bottom-right 
+{
+  bottom: 0;
+  right: 0;
+  padding: 5px; /* Padding for the div */
+}
+
+#clock 
+{
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    position: absolute;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+    .time 
+	{
+        letter-spacing: 0.05em;
+        font-size: 80px;
+		margin:0px;
+    }
+    .date 
+	{
+        letter-spacing: 0.1em;
+        font-size: 24px;
+		margin:0px;
+    }
+	
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, transparent 70%);
+    background-size: 100%;
+}

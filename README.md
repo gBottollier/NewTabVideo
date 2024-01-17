@@ -1,12 +1,12 @@
 # NewTabVideo
 
-AnimatedNewTab is a Chrome extension that enhances your browsing experience by playing a random video from the videos folder of the extension each time a new tab is opened.
+NewTabVideo is a Chrome extension that enhances your browsing experience by playing a random video from the videos folder of the extension each time a new tab is opened.
 
 ## Video Preview
 
-To see AnimatedNewTab in action, check out this [video preview](https://youtu.be/jPYcoJ4VupE).
+To see NewTabVideos in action, check out this [video preview](https://youtu.be/jPYcoJ4VupE).
 
-https://github.com/gBottollier/AnimatedNewTab/assets/89708938/d5d71e77-8eca-4ba6-9ab5-d0cb4e81a1bd
+https://github.com/gBottollier/NewTabVideo/assets/89708938/d5d71e77-8eca-4ba6-9ab5-d0cb4e81a1bd
 
 ## Installation Instructions
 
@@ -14,7 +14,7 @@ https://github.com/gBottollier/AnimatedNewTab/assets/89708938/d5d71e77-8eca-4ba6
 
 Follow this guide or the [Google guide](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
 
-1. Download or clone the AnimatedNewTab extension repository from GitHub.
+1. Download or clone the NewTabVideo extension repository from GitHub.
 2. Open Google Chrome and navigate to `chrome://extensions/`.
 3. Enable `Developer mode` by toggling the switch in the top right corner.
 4. Click on `Load unpacked` and select the extension directory (the folder where your extension's files, including the manifest, are located).
@@ -22,7 +22,7 @@ Follow this guide or the [Google guide](https://developer.chrome.com/docs/extens
 
 ## Customizing Wallpaper Folder
 
-Enhance your AnimatedNewTab experience by personalizing it with your own video wallpapers.
+Enhance your NewTabVideo experience by personalizing it with your own video wallpapers.
 
 - **Adding Videos**: Simply place your desired video files into the videos folder located within the extension's directory.
 - **High-Quality Wallpapers**: For access to a variety of 4K video wallpapers, check out MoeWalls.
@@ -33,7 +33,7 @@ Enhance your AnimatedNewTab experience by personalizing it with your own video w
 
 ## Additional Features
 
-- **Time and Date Display:** AnimatedNewTab also displays the current time and date on each new tab, adding functionality to its aesthetic appeal.
+- **Time and Date Display:** NewTabVideo also displays the current time and date on each new tab, adding functionality to its aesthetic appeal.
 - **Resolution Compatibility:** The extension is designed to handle all screen resolutions.
 
-Enjoy a more vibrant and customized browsing experience with AnimatedNewTab!
+Enjoy a more vibrant and customized browsing experience with NewTabVideo!

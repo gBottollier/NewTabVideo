@@ -1,4 +1,4 @@
-# AnimatedNewTab
+# NewTabVideo
 
 AnimatedNewTab is a Chrome extension that enhances your browsing experience by playing a random video from the videos folder of the extension each time a new tab is opened.
 

@@ -19,6 +19,7 @@ Follow this guide or the [Google guide](https://developer.chrome.com/docs/extens
 3. Enable `Developer mode` by toggling the switch in the top right corner.
 4. Click on `Load unpacked` and select the extension directory (the folder where your extension's files, including the manifest, are located).
 5. The extension should now be installed and visible in your extensions list.
+6. You have to Manually download and move videos to the folder videos
 
 ## Customizing Wallpaper Folder
 

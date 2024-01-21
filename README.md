@@ -12,7 +12,7 @@ https://github.com/gBottollier/NewTabVideo/assets/89708938/d5d71e77-8eca-4ba6-9a
 
 ### How to Install an Unpacked Extension in Chrome
 
-Follow this guide or the [Google guide](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
+Follow this guide or the [Google guide](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked) and go to Step 6
 
 1. Download or clone the NewTabVideo extension repository from GitHub.
 2. Open Google Chrome and navigate to `chrome://extensions/`.

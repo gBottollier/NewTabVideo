@@ -36,5 +36,6 @@ Enhance your NewTabVideo experience by personalizing it with your own video wall
 
 - **Time and Date Display:** NewTabVideo also displays the current time and date on each new tab, adding functionality to its aesthetic appeal.
 - **Resolution Compatibility:** The extension is designed to handle all screen resolutions.
+- **Settings**: Buttons shown to the top left on mouse over to controls Time and Sound
 
 Enjoy a more vibrant and customized browsing experience with NewTabVideo!

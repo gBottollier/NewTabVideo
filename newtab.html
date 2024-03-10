@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>New Tab Video</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <video id="randomVideo" loop disableRemotePlayback>
-    Your browser does not support the video tag.
-  </video>
-  <script src="newtab.js"></script>
-  <div id="clock" class="bottom-right">
-    <p class="date"></p>
-    <p class="time"></p>
-  </div>
-</body>
+  <head>
+    <title>New Tab Video</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <video id="randomVideo" loop disableRemotePlayback>
+      Your browser does not support the video tag.
+    </video>
+    <div id="clock" class="bottom-right">
+      <p class="date"></p>
+      <p class="time"></p>
+    </div>
+	<div id="buttons">
+      <button class="options" id="clockButton" ></button>
+	  <button class="options" id="soundButton" ></button>
+	  <button class="options" id="folderButton" ></button>
+	</div>
+  	<script src="options.js"></script>
+    <script src="video.js"></script>
+    <script src="time.js"></script>
+  </body>
 </html>

@@ -25,13 +25,12 @@ Note: Due to privacy restrictions in Google Chrome, I'm unable to directly open 
 Enhance your NewTabVideo experience by personalizing it with your own video wallpapers.
 
 - **Adding Videos**: Simply place your desired video files into the videos folder located within the extension's directory.
-- **High-Quality Wallpapers**: For access to a variety of 4K video wallpapers, check out MoeWalls.
-- **Single Video Option**: If you prefer to have only one video play, ensure that the videos folder contains just that single file.
-- **Default Wallpaper Gallery**: [moewalls.com](https://moewalls.com/resolution/3840x2160/).
+- **High-Quality Wallpapers**: For access to a variety of 4K video wallpapers, check out [MoeWalls.com](https://moewalls.com/resolution/3840x2160/)
+- **Single Video Option**: If you prefer to have only one video playing, ensure that the videos folder contains just that single file.
 
 ## Additional Features
 - **Time and Date Display:** NewTabVideo also displays the current time and date on each new tab, adding functionality to its aesthetic appeal.
 - **Resolution Compatibility:** The extension is designed to handle all screen resolutions.
 - **Settings**: Buttons shown to the top left on mouse over to controls Time and Sound
 
-Enjoy a more vibrant and customized browsing experience with NewTabVideo!
+Enjoy NewTabVideo extension!

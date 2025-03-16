@@ -5,20 +5,46 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
+  
     <video id="randomVideo" loop disableRemotePlayback>
       Your browser does not support the video tag.
     </video>
+	
     <div id="clock" class="bottom-right">
-      <p class="date"></p>
-      <p class="time"></p>
+      <p class="date">0</p>
+      <p class="time">0</p>
     </div>
+	
 	<div id="buttons">
       <button class="options" id="clockButton" ></button>
 	  <button class="options" id="soundButton" ></button>
 	  <button class="options" id="folderButton" ></button>
 	</div>
-  	<script src="options.js"></script>
-    <script src="video.js"></script>
-    <script src="time.js"></script>
+	
+    <div id="leftPane" class="leftPane">
+	  <button id="closeButton">X</button>
+      <div id="tabButtons" class="tabButtons">
+        <!-- Use the button elements for the tabs -->
+        <button class="tabButton" id="galleryButton">Gallery</button>
+        <button class="tabButton" id="othersButton">tabbar#1</button>
+		<button class="tabButton" id="othersButton">tabbar#2</button>
+		<button class="tabButton" id="othersButton">tabbar#3</button>
+      </div>
+	  <div id="tabs" class="tabs">
+        <div id="gallery" class="tab">
+          <h2>VIDEOS WALLPAPER GALLERY</h2>
+          <button id="upload">ADD WALLPAPER</button>
+		  <div id="videos">
+			<!-- Images or videos will be dynamically loaded here -->
+		  <div>
+        </div>
+		<!-- additionnal tabs here -->
+	  </div>
+    </div>
+	
+	<script src="js/database.js"></script>
+	<script src="js/gallery.js"></script>
+  	<script src="js/options.js"></script>
+    <script src="js/time.js"></script>
   </body>
 </html>

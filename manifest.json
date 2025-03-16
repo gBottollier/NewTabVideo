@@ -1,19 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "New Tab",
-  "version": "2.0",
-  "description": "Opens a video when you open a new tab",
-  "permissions": 
-  [
-    "activeTab"
-  ],
+  "name": "NewTabVideo",
+  "version": "2.0.0",
+  "description": "Replace the new tab to allow video background",
+  "icons": {
+    "48": "icon.png",
+    "96": "icon.png"
+  },
   "host_permissions": ["<all_urls>"],
-  "chrome_url_overrides": 
-  {
+  "chrome_url_overrides" : {
     "newtab": "newtab.html"
   },
-  "icons": 
-  {
-    "48": "icon.png"
-  }
+  "permissions": [
+    "tabs",
+	"activeTab"
+  ]
 }

@@ -7,8 +7,26 @@ To see NewTabVideos in action, check out this [video preview](https://youtu.be/j
 https://github.com/gBottollier/NewTabVideo/assets/89708938/d5d71e77-8eca-4ba6-9ab5-d0cb4e81a1bd
 
 ## Installation Instructions
-Chrome Web Store Installation
+Quick Chrome Web Store Installation (Demo version)
 You can now install NewTabVideo directly from the Chrome Web Store by following this [link](https://chromewebstore.google.com/detail/new-tab/hcllfencdjiekdlgkedhlbcddeocfiga).
+
+### Google Chrome:
+
+- Download or clone the repository from GitHub.
+- Extract the downloaded ZIP file wherever you want.
+- Open Chrome and navigate to chrome://extensions/.
+- Enable Developer Mode (toggle switch in the top right corner).
+- Click Load unpacked and select the extracted folder.
+The extension is now installed and ready to use !
+
+### Mozilla Firefox:
+- Download or clone the repository from GitHub.
+- Open Firefox and navigate to about:debugging.
+- Click on This Firefox (or This Nightly if using Firefox Nightly).
+- Click Load Temporary Add-on...
+- Select the manifest.json file from the extracted folder.
+The extension is now loaded and active for this session. (For a persistent installation, you may need to sign and package the add-on.)
+
 
 ### Adding / Removing Videos
 Once you've installed the extension, follow these steps to add videos:

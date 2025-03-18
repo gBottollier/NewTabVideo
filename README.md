@@ -8,38 +8,50 @@ https://github.com/gBottollier/NewTabVideo/assets/89708938/d5d71e77-8eca-4ba6-9a
 
 ## Installation Instructions
 Quick Chrome Web Store Installation (Demo version)
-You can now install NewTabVideo directly from the Chrome Web Store by following this [link](https://chromewebstore.google.com/detail/new-tab/hcllfencdjiekdlgkedhlbcddeocfiga).
+Install NewTabVideo directly from the Chrome Web Store by following this [link](https://chromewebstore.google.com/detail/new-tab/hcllfencdjiekdlgkedhlbcddeocfiga).
 
 ### Google Chrome:
-
 - Download or clone the repository from GitHub.
 - Extract the downloaded ZIP file wherever you want.
 - Open Chrome and navigate to chrome://extensions/.
 - Enable Developer Mode (toggle switch in the top right corner).
 - Click Load unpacked and select the extracted folder.
+- Open a new tab
+- you should see a black screen. Follow the instructions below to add a video.
 The extension is now installed and ready to use !
 
 ### Mozilla Firefox:
-- Download or clone the repository from GitHub.
-- Open Firefox and navigate to about:debugging.
-- Click on This Firefox (or This Nightly if using Firefox Nightly).
-- Click Load Temporary Add-on...
-- Select the manifest.json file from the extracted folder.
-The extension is now loaded and active for this session. (For a persistent installation, you may need to sign and package the add-on.)
+- Download the signed firefox extension [here](https://addons.mozilla.org/firefox/downloads/file/4455451/e75645df8b46448480b4-2.0.0.xpi).
+- Once downloaded, click to install the add-on.
+- Open a new tab
+- you should see a black screen. Follow the instructions below to add a video.
+The extension is now installed and ready to use !
 
-
-### Adding / Removing Videos
+### Adding Videos
 Once you've installed the extension, follow these steps to add videos:
 
 - Open a new tab.
-- Click on the folder button located in the top left corner of the NewTabVideo extension (shown on mouse hover). This will copy the path of the app to the clipboard.
-- Open File Explorer (or equivalent) on your computer.
-- Paste the copied path into the address bar of File Explorer and press Enter.
-- You will now be in the folder where the extension is installed. Place your desired video files into the "videos" folder within this directory.
+- Click the folder button in the top left corner of the NewTabVideo extension (visible on mouse hover).
+- It Open File Explorer (or your system’s equivalent).
+- Select all the videos you want to add. (*.MP4, other format not tested)
+- Click OK to confirm. The videos will be copied to your local file database (IndexedDB).
+- Wait until the videos appear in the gallery to ensure they are fully imported.
 
-Note: Due to privacy restrictions in Google Chrome, I'm unable to directly open File Explorer to assist you in adding videos.
+When adding videos, you must use a dedicated folder on your computer to store them before importing.
+Once imported, you may delete this folder if desired, as the videos are copied to your local file database. However, keeping it can serve as a backup.
 
-## Customizing Wallpaper Folder
+### Removing Videos
+Delete the IndexedDB database to clear all stored videos. The database name is NewTab_videos_database.
+- Open Developer Tools in your browser (F12).
+- Google Chrome: Go to the Application tab.
+  Mozilla Firefox: Go to the Storage tab.
+- Expand IndexedDB in the left panel.
+- Expand NewTab_videos_database in the left panel. 
+- Right-click on videos and select Clear.
+
+All videos are cleared, you can add videos again using the gallery.
+
+## Customizing Wallpaper
 Enhance your NewTabVideo experience by personalizing it with your own video wallpapers.
 
 - **Adding Videos**: Simply place your desired video files into the videos folder located within the extension's directory.

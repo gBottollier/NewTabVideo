@@ -21,7 +21,7 @@ Install NewTabVideo directly from the Chrome Web Store by following this [link](
 The extension is now installed and ready to use !
 
 ### Mozilla Firefox:
-- Download the signed firefox extension [here](https://addons.mozilla.org/firefox/downloads/file/4455451/e75645df8b46448480b4-2.0.0.xpi](https://addons.mozilla.org/fr/firefox/addon/newtabvideo).
+- Download the signed firefox extension [here](https://addons.mozilla.org/fr/firefox/addon/newtabvideo).
 - Once downloaded, click to install the add-on.
 - Open a new tab
 - you should see a black screen. Follow the instructions below to add a video.

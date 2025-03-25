@@ -8,15 +8,12 @@ https://github.com/gBottollier/NewTabVideo/assets/89708938/d5d71e77-8eca-4ba6-9a
 
 ## Installation Instructions
 Quick Chrome Web Store Installation (Demo version)
-Install NewTabVideo directly from the Chrome Web Store by following this [link](https://chromewebstore.google.com/detail/new-tab/hcllfencdjiekdlgkedhlbcddeocfiga).
+Install NewTabVideo directly from the Chrome Web Store by following this [link](https://chromewebstore.google.com/detail/hejhojfgghkjpngkgnfmnmlijhmfihce).
 
 ### Google Chrome:
-- Download or clone the repository from GitHub.
-- Extract the downloaded ZIP file wherever you want.
-- Open Chrome and navigate to chrome://extensions/.
-- Enable Developer Mode (toggle switch in the top right corner).
-- Click Load unpacked and select the extracted folder.
-- Open a new tab
+- Download the chrome add-on extension [here](https://chromewebstore.google.com/detail/hejhojfgghkjpngkgnfmnmlijhmfihce).
+- click to install the add-on.
+- Once downloaded, Open a new tab
 - you should see a black screen. Follow the instructions below to add a video.
 The extension is now installed and ready to use !
 

@@ -5,24 +5,27 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-  
-    <video id="randomVideo" loop disableRemotePlayback>
+    <video id="backgroundVideo" loop disableRemotePlayback>
       Your browser does not support the video tag.
     </video>
 	
     <div id="clock" class="bottom-right">
       <p class="date">0</p>
       <p class="time">0</p>
+	  
     </div>
 	
 	<div id="buttons">
       <button class="options" id="clockButton" ></button>
 	  <button class="options" id="soundButton" ></button>
 	  <button class="options" id="folderButton" ></button>
+	  <p class="help"><<< Click here to add videos !</p>
 	</div>
 	
     <div id="leftPane" class="leftPane">
-	  <button id="closeButton">X</button>
+	  <button id="closeButton">
+	    <img src="icons/cross.png" alt="close">
+	  </button>
       <div id="tabButtons" class="tabButtons">
         <!-- Use the button elements for the tabs -->
         <button class="tabButton" id="galleryButton">Gallery</button>
